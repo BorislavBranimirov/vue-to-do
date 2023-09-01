@@ -1,0 +1,28 @@
+:root {
+  --color-background: #181818;
+  --color-background-soft: #222222;
+  --color-background-mute: #282828;
+
+  --color-task: rgba(34, 34, 34, 1);
+
+  --color-border: rgba(84, 84, 84, 0.48);
+
+  --color-text: rgba(235, 235, 235, 0.64);
+  --color-text-bright: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: 'Segoe UI', sans-serif;
+}
